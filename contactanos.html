@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" href="logo.png">
+        <link rel="stylesheet" href="estilos.css">
+    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>D'mario Jean's</title>
+    </head>
+    <body>
+        <div class="cuerpo">
+            <div class="titulo">
+                <header><h1>D'mario Jean's</h1></header>
+            </div>
+            <br>
+            <div class="navegacion">
+                <ul>
+                    <a href="index.html">Inicio</a>
+                    <a href="quienes.html"> Quienes somos</a>
+                    <a href="ingreso.html">Ingresar</a>
+                    <a href="contactanos.html">Contactos</a>
+                </ul>
+                <form class="busqueda">
+                    <label for="campotexto"></label>
+                    <input type="text" id="campotexto">
+                    <button class="boton" type="submit">Buscar</button>
+                </form>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="contactanos">
+                <form>
+                    <br>
+                    <label for="mensaje">Mensaje:</label>
+                    <br>
+                    <br>
+                    <button class="boton">Marca</button>
+                    <button class="boton">Interesados</button>
+                    <br>
+                    <br>
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+                    <br>
+                    <br>
+                    <button class="boton" type="button" onclick="enviarCorreo()">Enviar por correo</button>
+                    <button class="boton" type="button" onclick="enviarWhatsApp()">Enviar por WhatsApp</button>
+                    <br>
+                    <br>
+                  </form>
+            </div>
+            <br>
+            <br>
+            </div>
+        </div>
+    </body>
+
+</html>
